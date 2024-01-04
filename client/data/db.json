@@ -1,0 +1,35 @@
+{
+  "clients": [
+    {
+      "nombre": "Roberto",
+      "apellido": "Gil",
+      "cedula": "1043660260",
+      "telefono": "3207881015",
+      "id": 1
+    },
+    {
+      "nombre": "María",
+      "apellido": "Pacheco",
+      "cedula": "132103123",
+      "telefono": "3001323123",
+      "id": 2
+    },
+    {
+      "nombre": "Pepe",
+      "apellido": "Perez",
+      "cedula": "13213213",
+      "telefono": "323123012",
+      "id": 3
+    }
+  ],
+  "loans": [
+    {
+      "cliente": "2",
+      "monto": "2000000",
+      "fechaInicio": "2019-02-23",
+      "interes": "3",
+      "id": 1
+    }
+  ],
+  "payments": []
+}

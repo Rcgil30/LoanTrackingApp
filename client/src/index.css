@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #5f626d;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #c7ccdb;
+}
+
+.navbar img {
+  height: 2em;
+  width: auto; 
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.opcion {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.opcion:hover {
+  box-shadow: 1px 3px 5px #5f626d;
+}
+
+.home .home-links {
+  text-decoration: none;
+}
+
+.create-user .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+.create-user input {
+  margin-bottom: 35px; /* Adjust as needed */
+  height: 25px;
+}
+
+.create-user .boton button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5f626d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-user .cedula::-webkit-inner-spin-button,
+.create-user .cedula::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.create-user .cedula {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.create-user .telefono::-webkit-inner-spin-button,
+.create-user .telefono::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.create-user .telefono {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.create-user .boton {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.create-user h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.create-loan h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.create-loan .boton {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.create-loan .boton button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5f626d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-loan .monto::-webkit-inner-spin-button,
+.create-loan .monto::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.create-loan .monto {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.create-loan .interes::-webkit-inner-spin-button,
+.create-loan .interes::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.create-loan .interes {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.create-loan .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.create-loan input {
+  margin-bottom: 35px;
+  height: 25px;
+}
+
+.create-loan select {
+  margin-bottom: 35px;
+  height: 25px;
+}
