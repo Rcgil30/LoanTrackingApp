@@ -15,10 +15,10 @@
       "id": 2
     },
     {
-      "nombre": "Pepe",
-      "apellido": "Perez",
-      "cedula": "13213213",
-      "telefono": "323123012",
+      "nombre": "Santiago",
+      "apellido": "Hernández",
+      "cedula": "10324545643",
+      "telefono": "32012832713",
       "id": 3
     }
   ],
@@ -29,6 +29,13 @@
       "fechaInicio": "2019-02-23",
       "interes": "3",
       "id": 1
+    },
+    {
+      "cliente": "3",
+      "monto": "1000000",
+      "fechaInicio": "2024-01-07",
+      "interes": "2",
+      "id": 2
     }
   ],
   "payments": []

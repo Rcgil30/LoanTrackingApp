@@ -4,6 +4,8 @@ import Home from './Home';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CreateUser from './CreateUser';
 import CreateLoan from './CreateLoan';
+import SearchClient from './SearchClient';
+import UserDetails from './UserDetails';
 
 function App() {
 
@@ -21,6 +23,12 @@ function App() {
             </Route>
             <Route exact path="/crearPrestamo">
               <CreateLoan />
+            </Route>
+            <Route exact path="/buscarCliente">
+              <SearchClient/>
+            </Route>
+            <Route path="/buscarCliente/:id">
+              <UserDetails/>
             </Route>
           </Switch>
         </div>

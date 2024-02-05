@@ -177,3 +177,25 @@
   margin-bottom: 35px;
   height: 25px;
 }
+
+.buscar-cliente .cliente {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.buscar-cliente .cliente:hover {
+  box-shadow: 1px 3px 5px #5f626d;
+}
+
+.buscar-cliente .cliente .links {
+  text-decoration: none;
+}
+
+.userDetails h3 {
+  padding-bottom: 20px;
+}
+
+.userDetails p {
+  padding-bottom: 10px;
+}
